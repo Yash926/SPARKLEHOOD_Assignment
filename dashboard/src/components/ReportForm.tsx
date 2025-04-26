@@ -28,7 +28,7 @@ const ReportForm = ({ onSubmit }: Props) => {
 
   return (
     <form className="report-form" onSubmit={handleSubmit}>
-      <h2>Report New Incident</h2>
+      <h2 className="Form-header">Report New Incident</h2>
       <input
         type="text"
         placeholder="Incident Title"
@@ -41,6 +41,7 @@ const ReportForm = ({ onSubmit }: Props) => {
         onChange={(e) => setDesc(e.target.value)}
       />
       <select value={severity} onChange={(e) => setSeverity(e.target.value as Severity)}>
+        <option value="level">Select Severity Level</option>
         <option value="Low">Low</option>
         <option value="Medium">Medium</option>
         <option value="High">High</option>

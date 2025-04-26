@@ -43,6 +43,7 @@ import SortControls from "./components/SortControls";
 import ReportForm from "./components/ReportForm";
 import "./App.css";
 import logo from "./assets/logo.png";
+import Footer from "./components/Footer";
 const initialIncidents: Incident[] = [
   {
     id: 1,
@@ -113,6 +114,7 @@ function App() {
           <IncidentCard key={incident.id} incident={incident} />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
