@@ -36,7 +36,7 @@ const ReportForm = ({ onSubmit }: Props) => {
         onChange={(e) => setTitle(e.target.value)}
       />
       <textarea
-        placeholder="Description"
+        placeholder="Incident Description"
         value={desc}
         onChange={(e) => setDesc(e.target.value)}
       />
