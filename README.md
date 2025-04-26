@@ -38,20 +38,24 @@ Follow these steps to set up the project locally:
    cd dashboard
 
 2. **Install Dependencies: Run the following command to install all required dependencies**:
+    ```bash
     npm install
 
 3. **Start the Development Server: Start the local development server with**:
+    ```bash
     npm run dev
-    # The app will be available at http://localhost:5173.
+    The app will be available at http://localhost:5173.
 
 4. **Build for Production: To create a production-ready build, run**:
+    ```bash
     npm run build
 
 5. **Preview the Production Build: To preview the production build locally, run**:
+    ```bash
     npm run preview
 
 ## Folder Structure:
-
+```
     SPARKLEHOOD_Assignment/
 ├── dashboard/
 │   ├── src/
@@ -66,6 +70,8 @@ Follow these steps to set up the project locally:
 │   ├── tsconfig.json           # TypeScript configuration
 │   ├── vite.config.ts          # Vite configuration
 │   └── README.md               # Project documentation
+
+```
 
 ## Design Decisions
    - **React with TypeScript**: Chosen for type safety and scalability.
