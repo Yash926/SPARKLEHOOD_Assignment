@@ -3,6 +3,11 @@
 This project is a web-based dashboard for managing and viewing AI safety incidents. It allows users to filter, sort, and report incidents based on severity and date. The project is built using **React**, **TypeScript**, and **Vite**.
 
 ---
+## Github Respository Link
+https://github.com/Yash926/SPARKLEHOOD_Assignment
+
+# Hosted Link of Website
+https://isafety.netlify.app/
 
 ## Features
 - **Filter Incidents**: Filter incidents by severity (Low, Medium, High, or All).
