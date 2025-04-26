@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             📞 <a href="tel:9260923337">+91-9260923337</a>
           </span>
         </div>
-        <a href="https://drive.google.com/file/d/1Kpxt42kXWsmyG-w_GM5PpQysOOfKeraJ/view" download className="cv-button">
+        <a href="https://drive.google.com/file/d/1-jMQOcXVGtjfyR0OxT1l50raSg2l7O_6/view?usp=sharing" download className="cv-button">
           My CV
         </a>
       </div>
